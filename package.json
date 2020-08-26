@@ -1,0 +1,27 @@
+{
+  "name": "hackersuop.github.io",
+  "version": "1.0.0",
+  "description": "Hackers' Club Official Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackersUOP/HackersUOP.github.io.git"
+  },
+  "keywords": [
+    "HackersClubUOP",
+    "Hackers'",
+    "UOP"
+  ],
+  "author": "HackersUOP",
+  "license": "GPL 2.1",
+  "bugs": {
+    "url": "https://github.com/HackersUOP/HackersUOP.github.io/issues"
+  },
+  "homepage": "https://github.com/HackersUOP/HackersUOP.github.io#readme",
+  "devDependencies": {
+    "prettier": "2.1.1"
+  }
+}
