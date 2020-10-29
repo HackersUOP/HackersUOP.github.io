@@ -1,0 +1,189 @@
+footer{
+  background: #f1f1f1;
+  padding: 10px 0;
+}
+
+.footer-container{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.footer-copyright{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.logo{
+  width: 180px;
+  text-align: center;
+}
+
+.social-media{
+  margin: 50px 0;
+}
+
+.social-media a{
+  color: #001a21;
+  margin-right: 50px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+
+.social-media a:hover{
+  color: #005B9A;
+  text-shadow: 0 0 10px #fff,
+               0 0 20px #03a9f4,
+               0 0 40px #03a9f4,
+               0 0 80px #03a9f4,
+               0 0 120px #03a9f4;
+}
+  
+
+.right-col h1{
+  font-weight: bold;
+  font-size: 26px;
+  box-sizing: border-box;
+}
+
+.left-col h1{
+  font-weight: bold;
+  font-size: 26px;
+  box-sizing: border-box;
+}
+
+.left-col {
+  width: 60%;
+}
+
+.right-col {
+  width: 40%;
+}
+
+.border{
+  width: 100px;
+  height: 4px;
+  background: #0E89A9;
+}
+
+.newsletter-form{
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  flex-wrap: wrap;
+}
+
+.txtb{
+  flex: 1;
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #293043;
+  background: #ddd;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  min-width: 260px;
+}
+
+.btn{
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #f1f1f1;
+  background: #005B9A;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: opacity .3s linear;
+}
+
+.btn:hover {
+  background-color: #612ED3;
+  font-size: 16px;
+  color: #f1f1f1;
+}
+.btn:focus {
+  outline: 1px blue;
+  outline-offset: 5px;
+}
+
+.page-content{
+  min-height: 100vh;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/** {
+  box-sizing: border-box;
+}*/
+
+/* Create three equal columns that floats next to each other */
+.columnF {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  /*height: 200px;  Should be removed. Only for demonstration */
+  text-align: left;
+}
+
+/* Clear floats after the columns */
+.rowF:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  width: 22%;
+}
+
+.middle {
+  width: 27%;
+}
+
+.right {
+  width: 50%;
+}
+
+@media screen and (max-width:960px) {
+  .footer-container{
+    max-width: 600px;
+  }
+  .right-col{
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .left-col{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width:700px){
+  .btn{
+    margin: 0;
+    width: 100%;
+    margin-top: 20px;
+    }
+}

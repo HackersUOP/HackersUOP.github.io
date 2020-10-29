@@ -1,0 +1,356 @@
+/*
+	This style sheet for 'Event day counter'
+
+	~FRC~ 
+*/
+
+
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=PT+Sans&family=Trispace:wght@600&display=swap" rel="stylesheet");
+/*
+font-family: 'Henny Penny', cursive;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Trispace', sans-serif;
+
+*/
+
+
+.event{
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	width: 90%;
+	margin: auto;
+	height: auto;
+
+	/*
+		image for desktop screen
+		image scale should be nearly 1:4/5
+	*/
+	/*background-image: url(assets/img/counter/desktop.jpg) !important;*/
+
+
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.eventContainer{
+	display: flex;
+	flex-direction: column;
+
+	justify-content: center;
+	align-items: center;
+	padding: 100px 10px;
+
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.1);
+
+
+
+
+}
+.title{
+	font-size: 4.2rem;
+}
+.title h1{
+	text-align: center;
+	padding: 0;
+	margin:  0.1em 0 ;
+	font-family: 'Henny Penny', cursive;
+	color: #C7C9C9;
+
+}
+
+.title1{
+	margin: 0;	
+	padding: 0;
+}
+
+.title1 h1 span{
+	text-align: center;
+	padding: 0;
+	margin:  0.4em 0 ;
+	font-family: 'Henny Penny', cursive;
+	color: #bfc4c7;
+	display: table-cell;
+	margin: 0;
+	padding: 0;
+	animation: animated 1s linear infinite;
+}
+
+.title1 h1 span:nth-child(0){
+	animation-delay: 0s;
+}
+.title1 h1 span:nth-child(1){
+	animation-delay: 0.5s;
+}
+/*.title1 h1 span:nth-child(2){
+	animation-delay: 0.2s;
+}
+.title1 h1 span:nth-child(3){
+	animation-delay: 0.3s;
+}
+.title1 h1 span:nth-child(4){
+	animation-delay: 0.4s;
+}
+.title1 h1 span:nth-child(5){
+	animation-delay: 0.5s;
+}
+.title1 h1 span:nth-child(6){
+	animation-delay: 0.6s;
+}
+.title1 h1 span:nth-child(7){
+	animation-delay: 0.7s;
+}
+.title1 h1 span:nth-child(8){
+	animation-delay: 0.8s;
+}
+.title1 h1 span:nth-child(9){
+	animation-delay: 0.9s;
+}
+.title1 h1 span:nth-child(10){
+	animation-delay: 1s;
+}
+.title1 h1 span:nth-child(11){
+	animation-delay: 1.1s;
+}
+.title1 h1 span:nth-child(12){
+	animation-delay: 1.2s;
+}
+.title1 h1 span:nth-child(13){
+	animation-delay: 1.3s;
+}
+.title1 h1 span:nth-child(14){
+	animation-delay: 1.4s;
+}
+.title1 h1 span:nth-child(15){
+	animation-delay: 1.5s;
+}
+.title1 h1 span:nth-child(16){
+	animation-delay: 1.6s;
+}
+.title1 h1 span:nth-child(17){
+	animation-delay: 1.7s;
+}
+.title1 h1 span:nth-child(18){
+	animation-delay: 1.8s;
+}*/
+
+
+@keyframes animated{
+	0%,100%
+	{
+		color: #fff;
+		filter: blur(2px);
+		text-shadow: 0 0 10px #00b3ff,
+				    0 0 20px #00b3ff,
+				    0 0 40px #00b3ff,
+				    0 0 80px #00b3ff,
+				    0 0 120px #00b3ff,
+				    0 0 200px #00b3ff,
+				    0 0 300px #00b3ff,
+				    0 0 400px #00b3ff;		    
+	}
+
+	0%,95%
+	{
+		color: #111;
+		filter: blur(0px);
+		text-shadow: none;
+	}
+}
+
+.counter{
+	color: #DCDDDD;
+	font-size: 1.8rem;
+	font-family: 'Trispace', sans-serif;
+
+}
+.regButton{
+
+  align-self: center;
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #f1f1f1;
+  background: transparent;
+  border: linear #005B9A;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: opacity .3s linear;
+}
+.regButton a{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color:#1670f0;
+	padding:30px;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	text-decoration:none;
+	overflow:hidden;
+	
+}
+
+.regButton a:before
+{
+content: '';
+position: absolute;
+top: 2px;
+left: 2px;
+bottom: 2px;
+width: 50%;
+background: rgba(255,255,255,0.05);
+}
+.regButton a span:nth-child(1)
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 2px;
+background: linear-gradient(to right,#0c002b,#1779ff);
+animation: animate1 2s linear infinite;
+}
+@keyframes animate1
+{
+ 0%
+ {
+   transform:translateX(-100%);
+ 
+ }
+ 100%
+ {
+   transform:translateX(100%);
+ 
+ }
+}
+.regButton a span:nth-child(2)
+{
+position: absolute;
+top: 0;
+right: 0;
+width: 2px;
+height: 100%;
+background: linear-gradient(to bottom,#0c002b,#1779ff);
+animation: animate2 2s linear infinite;
+animation-delay: 1s;
+}
+@keyframes animate2 
+{
+ 0%
+ {
+   transform:translateY(-100%);
+ 
+ }
+ 100%
+ {
+   transform:translateY(100%);
+ 
+ }
+}
+.regButton a span:nth-child(3)
+{
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 2px;
+background: linear-gradient(to left,#0c002b,#1779ff);
+animation: animate3 2s linear infinite;
+}
+@keyframes animate3
+{
+ 0%
+ {
+   transform:translateX(100%);
+ 
+ }
+ 100%
+ {
+   transform:translateX(-100%);
+ 
+ }
+}
+.regButton a span:nth-child(4)
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 2px;
+height: 100%;
+background: linear-gradient(to top,#0c002b,#1779ff);
+animation: animate4 2s linear infinite;
+animation-delay: 1s;
+}
+@keyframes animate4 
+{
+ 0%
+ {
+   transform:translateY(100%);
+ 
+ }
+ 100%
+ {
+   transform:translateY(-100%);
+ 
+ }
+} 
+
+.regButton a:hover {
+	
+	background-color: #612ED3;
+	box-shadow:0 20px 50px rgba(0,0,0,.5);
+    font-size: 20px;
+    color: #f1f1f1;
+}
+
+.regButton a:focus {
+  outline: 2px blue;
+  outline-offset: 5px;
+}
+
+
+@media (orientation:portrait) , (max-width: 300px){
+	.event{
+
+		justify-content:  center;
+
+		/*
+			image for mobile viwe
+			image should be relvant to moblie screen
+		*/
+		background-image: url('mobile.jpg');
+
+
+		background-position: center;
+		height: 80vh;
+		width: 100%;
+	}
+	.eventContainer{
+		align-items: center;
+		height: 90%;
+		width: 90%;
+
+	}
+	.title{
+		font-size: 1.2rem;
+	}
+	.counter{
+		font-size: 2rem;
+
+	}
+	.regButton{
+		font-size: 1rem;
+		align-self: center;
+	}
+}
+          

@@ -1,0 +1,135 @@
+/*
+	This style sheet for 'Event day counter'
+
+	~FRC~ 
+*/
+
+
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=PT+Sans&family=Trispace:wght@600&display=swap" rel="stylesheet");
+/*
+font-family: 'Henny Penny', cursive;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Trispace', sans-serif;
+
+*/
+
+
+.event{
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	width: 90%;
+	margin: auto;
+	height: auto;
+
+	/*
+		image for desktop screen
+		image scale should be nearly 1:4/5
+	*/
+	background-image: url('desktop.jpg');
+
+
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.eventContainer{
+	display: flex;
+	flex-direction: column;
+
+	justify-content: center;
+	align-items: flex-start;
+	padding: 0 10px;
+
+	height: 100%;
+	width: 40%;
+	background-color: rgba(0,0,0,0.1);
+
+
+
+
+}
+.title{
+	font-size: 1.2rem;
+}
+.title h1{
+	padding: 0;
+	margin:  0.1em 0 ;
+	font-family: 'Henny Penny', cursive;
+	color: #C7C9C9;
+}
+
+
+.counter{
+	color: #DCDDDD;
+	font-size: 1.8rem;
+	font-family: 'Trispace', sans-serif;
+
+}
+.regButton{
+
+	align-self: flex-end;
+	margin:  1.5em;
+	padding: .2em;
+	min-width: 2em;	
+
+
+
+	color: white;
+	font-size: 1rem;
+	
+
+	border:1px solid #DCDDDD;
+	border-radius: 1.2em;
+}
+.regButton a{
+	text-decoration: none;
+	color: #D5D6D6;
+	font-family: 'Trispace', sans-serif;
+	
+}
+.regButton:hover {
+	
+	background-color:rgba(0,0,0,0.5);
+	border-color: rgba(0,0,0,0.5);
+}
+
+@media (orientation:portrait) , (max-width: 300px){
+	.event{
+
+		justify-content:  center;
+
+		/*
+			image for mobile viwe
+			image should be relvant to moblie screen
+		*/
+		background-image: url('mobile.jpg');
+
+
+		background-position: center;
+		height: 80vh;
+		width: 100%;
+	}
+	.eventContainer{
+		align-items: center;
+		height: 90%;
+		width: 90%;
+
+	}
+	.title{
+		font-size: 1.2rem;
+	}
+	.counter{
+		font-size: 2rem;
+
+	}
+	.regButton{
+		font-size: 1rem;
+		align-self: center;
+	}
+}
