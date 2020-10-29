@@ -37,33 +37,19 @@
         <div class="mainbar-wrap">
           <div class="container-fluid mainbar-container">
             <div class="mainbar">
-              <div class="row mainbar-row align-items-lg-stretch px-4">
+              <div class="row mainbar-row align-items-lg-stretch px-4" id="navbar">
                 <div class="col">
                   <div class="navbar-header">
                     <a
-                      class="navbar-brand pt-35 pb-35"
-                      href="index_html.html"
+                      class="navbar-brand pt-20 pb-20"
+                      href="index.html"
                       rel="home"
                     >
                       <span class="navbar-brand-inner">
                         <img
-                          class="logo-dark"
-                          src="assets/img/logo/logo-1.svg"
-                          alt="Ave HTML Template"
-                        />
-                        <img
-                          class="logo-sticky"
-                          src="assets/img/logo/logo-1.svg"
-                          alt="Ave HTML Template"
-                        />
-                        <img
-                          class="mobile-logo-default"
-                          src="assets/img/logo/logo-1.svg"
-                          alt="Ave HTML Template"
-                        />
-                        <img
                           class="logo-default"
-                          src="assets/img/logo/logo-light.svg"
+                          style="max-width: 30px"
+                          src="assets/img/logo/logo-2.png"
                           alt="Ave HTML Template"
                         />
                       </span>
@@ -1753,6 +1739,13 @@
     <script src="assets/js/liquidajaxcontactform.min.js"></script>
     <script src="assets/js/liquidajaxmailchimp.min.js"></script>
     <style type="text/css">
+      #navbar {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: -webkit-fill-available;
+        background-color: #000030;
+      }
       .lqd-buy-now {
         position: fixed;
         right: 30px;
