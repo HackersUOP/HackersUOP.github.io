@@ -8,8 +8,8 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta name="theme-color" content="#3ed2a7" />
-    <link rel="shortcut icon" href="favicon.png" />
-    <title>Ave HTML Template</title>
+    <link rel="shortcut icon" href="assets/img/logo/ico/logo-32.png" />
+    <title>Hackers' Club | University of Peradeniya</title>
     <link rel="stylesheet" href="assets/css/font-vendors1.css" />
     <link
       rel="stylesheet"
@@ -33,37 +33,27 @@
     data-mobile-nav-breakpoint="1199"
   >
     <div id="wrap">
+      <!-- Navbar -->
       <header class="main-header main-header-overlay">
         <div class="mainbar-wrap">
           <div class="container-fluid mainbar-container">
             <div class="mainbar">
-              <div class="row mainbar-row align-items-lg-stretch px-4">
+              <div
+                class="row mainbar-row align-items-lg-stretch px-4"
+                id="navbar"
+              >
                 <div class="col">
                   <div class="navbar-header">
                     <a
-                      class="navbar-brand pt-35 pb-35"
-                      href="index_html.html"
+                      class="navbar-brand pt-20 pb-20"
+                      href="index.html"
                       rel="home"
                     >
                       <span class="navbar-brand-inner">
                         <img
-                          class="logo-dark"
-                          src="assets/img/logo/logo-1.svg"
-                          alt="Ave HTML Template"
-                        />
-                        <img
-                          class="logo-sticky"
-                          src="assets/img/logo/logo-1.svg"
-                          alt="Ave HTML Template"
-                        />
-                        <img
-                          class="mobile-logo-default"
-                          src="assets/img/logo/logo-1.svg"
-                          alt="Ave HTML Template"
-                        />
-                        <img
                           class="logo-default"
-                          src="assets/img/logo/logo-light.svg"
+                          style="max-width: 30px"
+                          src="assets/img/logo/logo-2.png"
                           alt="Ave HTML Template"
                         />
                       </span>
@@ -97,7 +87,7 @@
                       data-localscroll="true"
                     >
                       <li class="is-active">
-                        <a href="#content">
+                        <a href="#home">
                           <span class="link-icon"></span>
                           <span class="link-txt">
                             <span class="link-ext"></span>
@@ -106,29 +96,29 @@
                         </a>
                       </li>
                       <li>
-                        <a href="#litecoin">
+                        <a href="#about">
                           <span class="link-icon"></span>
                           <span class="link-txt">
                             <span class="link-ext"></span>
-                            <span class="txt">Litecoin</span>
+                            <span class="txt">About</span>
                           </span>
                         </a>
                       </li>
                       <li>
-                        <a href="#roadmap">
+                        <a href="#events">
                           <span class="link-icon"></span>
                           <span class="link-txt">
                             <span class="link-ext"></span>
-                            <span class="txt">Roadmap</span>
+                            <span class="txt">Events</span>
                           </span>
                         </a>
                       </li>
                       <li>
-                        <a href="#advisor">
+                        <a href="#gallery">
                           <span class="link-icon"></span>
                           <span class="link-txt">
                             <span class="link-ext"></span>
-                            <span class="txt">Advisors</span>
+                            <span class="txt">Gallery</span>
                           </span>
                         </a>
                       </li>
@@ -142,11 +132,20 @@
                         </a>
                       </li>
                       <li>
-                        <a href="#buy">
+                        <a href="#faq">
                           <span class="link-icon"></span>
                           <span class="link-txt">
                             <span class="link-ext"></span>
-                            <span class="txt">Buy Coins</span>
+                            <span class="txt">FAQ</span>
+                          </span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#connect">
+                          <span class="link-icon"></span>
+                          <span class="link-txt">
+                            <span class="link-ext"></span>
+                            <span class="txt">Connect</span>
                           </span>
                         </a>
                       </li>
@@ -154,12 +153,12 @@
                   </div>
                   <div class="header-module">
                     <a
-                      href="#"
+                      href="#subscribe"
                       class="btn btn-solid btn-sm circle btn-bordered border-thick btn-gradient font-size-14 ltr-sp-025 px-2 lh-15"
                     >
                       <span>
                         <span class="btn-gradient-bg"></span>
-                        <span class="btn-txt">Get early access</span>
+                        <span class="btn-txt">Subscribe</span>
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -199,8 +198,11 @@
           </div>
         </div>
       </header>
-      <main id="content" class="content">
+
+      <main class="content">
+        <!-- Home -->
         <section
+          id="home"
           class="vc_row py-5 mb-60 fullheight d-flex flex-wrap align-items-center bg-cover"
           style="background-image: url(assets/demo/bg/bg-36.jpg)"
         >
@@ -256,12 +258,14 @@
             </div>
           </div>
         </section>
-        <section id="litecoin" class="vc_row pt-60 pb-60">
+
+        <!-- About -->
+        <section id="about" class="vc_row pt-60 pb-60">
           <div class="container">
             <div class="row">
               <div class="lqd-column col-md-6 col-md-offset-3 mb-35">
                 <header class="fancy-header text-center">
-                  <h2 class="font-size-40">Secure Cryptography</h2>
+                  <h2 class="font-size-40">About Hackers' Club</h2>
                 </header>
               </div>
             </div>
@@ -474,6 +478,112 @@
             </div>
           </div>
         </section>
+
+        <!-- Countdown -->
+        <section class="vc_row pt-50 pb-150">
+          <div class="container">
+            <div class="row">
+              <div class="lqd-column col-md-6 col-md-offset-3 mb-55">
+                <header class="fancy-heading text-center">
+                  <h6
+                    class="font-size-12 text-uppercase ltr-sp-2 mt-0 mb-3 opacity-05"
+                  >
+                    Stay tuned with Hackers' Club
+                  </h6>
+                  <h2 class="font-size-40 my-0">Happening Now!</h2>
+                </header>
+              </div>
+            </div>
+            <div class="row d-flex flex-wrap align-items-center">
+              <div class="lqd-column col-md-4 col-xs-12 mb-4 mb-md-0">
+                <h2 class="font-size-36 mt-0">Developer Series Sessions</h2>
+                <p class="font-size-17 lh-175 pr-md-4 mb-30">
+                  Bitcoin is designed around the idea of using cryptography to
+                  control the creation and transfer of money in any time.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-solid circle btn-bordered border-thin btn-gradient px-3"
+                >
+                  <span>
+                    <span class="btn-gradient-bg"></span>
+                    <span class="btn-txt">Apply Code</span>
+                    <span class="btn-icon">
+                      <i class="fa fa-long-arrow-right"></i>
+                    </span>
+                    <span class="btn-gradient-bg btn-gradient-bg-hover"></span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xml:space="preserve"
+                      class="btn-gradient-border"
+                      width="100%"
+                      height="100%"
+                    >
+                      <defs>
+                        <linearGradient
+                          id="svg-border-5c79175df082b"
+                          x1="0%"
+                          y1="0%"
+                          x2="100%"
+                          y2="0%"
+                        >
+                          <stop offset="0%"></stop>
+                          <stop offset="100%"></stop>
+                        </linearGradient>
+                      </defs>
+                      <rect
+                        x="0.5"
+                        y="0.5"
+                        rx="31"
+                        ry="31"
+                        width="100%"
+                        height="100%"
+                        stroke="url(#svg-border-5c79175df082b)"
+                      ></rect>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+              <div class="lqd-column col-md-8 col-xs-12">
+                <div
+                  class="lqd-column-inner border-athens-gray border-radius-5 pt-50 pb-25 px-2 px-md-5"
+                >
+                  <div class="row">
+                    <div class="lqd-column col-md-10 col-md-offset-1 mb-35">
+                      <div
+                        class="countdown text-arapawa"
+                        data-fittext="true"
+                        data-fittext-options='{ "compressor": 0.75, "minFontSize": 60, "maxFontSize": 60 }'
+                        data-plugin-countdown="true"
+                        data-countdown-options='{"until":"2020-11-05"}'
+                      ></div>
+                    </div>
+                    <div class="lqd-column col-md-offset-1 col-md-5 col-xs-6">
+                      <p>
+                        <span class="font-size-16 text-arapawa">Start:</span
+                        ><br />
+                        <span class="font-size-16 opacity-06"
+                          >3 November, 2020 17:00</span
+                        >
+                      </p>
+                    </div>
+                    <div class="lqd-column col-md-5 col-xs-6">
+                      <p>
+                        <span class="font-size-16 text-arapawa">End:</span
+                        ><br />
+                        <span class="font-size-16 opacity-06"
+                          >6 December, 2020</span
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section class="vc_row pt-50 pb-50 mb-170">
           <div class="container">
             <div class="row">
@@ -598,6 +708,7 @@
             </div>
           </div>
         </section>
+
         <section
           class="vc_row pt-60 pb-250 bg-cover"
           style="background-image: url(assets/demo/bg/bg-37.jpg)"
@@ -619,6 +730,7 @@
             </div>
           </div>
         </section>
+
         <section class="vc_row pull-up">
           <div class="container">
             <div class="row">
@@ -699,6 +811,7 @@
             </div>
           </div>
         </section>
+
         <section
           class="vc_row pt-100 pb-100 bg-right-center bg-no-repeat"
           style="background-image: url(assets/demo/bg/bg-38.jpg)"
@@ -717,6 +830,7 @@
             </div>
           </div>
         </section>
+
         <section class="vc_row pb-60">
           <div class="container">
             <div class="row">
@@ -762,6 +876,7 @@
             </div>
           </div>
         </section>
+
         <section class="vc_row pt-70 pb-70">
           <div class="container">
             <div class="row">
@@ -871,8 +986,10 @@
             </div>
           </div>
         </section>
-        <section
-          id="roadmap"
+
+        <!-- Events -->
+        <!-- <section
+          id="events"
           class="vc_row pt-90 pb-90 mt-100 mb-100 bg-cover"
           data-parallax="true"
           data-parallax-options='{"parallaxBG":true}'
@@ -946,162 +1063,10 @@
               </div>
             </div>
           </div>
-        </section>
-        <section id="advisor" class="vc_row pt-20 pb-80">
-          <div class="container">
-            <div class="row">
-              <div class="lqd-column col-md-6 col-md-offset-3 mb-70">
-                <header class="fancy-heading text-center">
-                  <h6
-                    class="font-size-12 text-uppercase ltr-sp-2 mt-0 mb-3 opacity-05"
-                  >
-                    Our dedicated team
-                  </h6>
-                  <h2 class="font-size-40 my-0">Our Advisors</h2>
-                </header>
-              </div>
-            </div>
-            <div class="row">
-              <div class="lqd-column col-md-3 col-sm-6">
-                <div class="ld-tm d-flex flex-column text-center px-md-3">
-                  <div class="ld-tm-img mb-3 text-center">
-                    <figure>
-                      <img
-                        class="circle"
-                        src="assets/demo/team/team-19.jpg"
-                        alt="Logan Benjamin"
-                      />
-                    </figure>
-                  </div>
-                  <div class="ld-tm-info">
-                    <h3 class="ld-tm-name size-sm font-weight-semibold mb-3">
-                      Logan Benjamin
-                    </h3>
-                    <h6
-                      class="ld-tm-pos text-uppercase ltr-sp-175 font-weight-bold mb-3"
-                    >
-                      ADVISOR
-                    </h6>
-                    <p class="opacity-06">
-                      Bitcoin is designed around the idea of using cryptography.
-                    </p>
-                    <ul class="ld-tm-social social-icon branded-text mt-3">
-                      <li>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="lqd-column col-md-3 col-sm-6">
-                <div class="ld-tm d-flex flex-column text-center px-md-3">
-                  <div class="ld-tm-img mb-3 text-center">
-                    <figure>
-                      <img
-                        class="circle"
-                        src="assets/demo/team/team-20.jpg"
-                        alt="Logan Benjamin"
-                      />
-                    </figure>
-                  </div>
-                  <div class="ld-tm-info">
-                    <h3 class="ld-tm-name size-sm font-weight-semibold mb-3">
-                      Logan Benjamin
-                    </h3>
-                    <h6
-                      class="ld-tm-pos text-uppercase ltr-sp-175 font-weight-bold mb-3"
-                    >
-                      ADVISOR
-                    </h6>
-                    <p class="opacity-06">
-                      Bitcoin is designed around the idea of using cryptography.
-                    </p>
-                    <ul class="ld-tm-social social-icon branded-text mt-3">
-                      <li>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="lqd-column col-md-3 col-sm-6">
-                <div class="ld-tm d-flex flex-column text-center px-md-3">
-                  <div class="ld-tm-img mb-3 text-center">
-                    <figure>
-                      <img
-                        class="circle"
-                        src="assets/demo/team/team-21.jpg"
-                        alt="Logan Benjamin"
-                      />
-                    </figure>
-                  </div>
-                  <div class="ld-tm-info">
-                    <h3 class="ld-tm-name size-sm font-weight-semibold mb-3">
-                      Logan Benjamin
-                    </h3>
-                    <h6
-                      class="ld-tm-pos text-uppercase ltr-sp-175 font-weight-bold mb-3"
-                    >
-                      ADVISOR
-                    </h6>
-                    <p class="opacity-06">
-                      Bitcoin is designed around the idea of using cryptography.
-                    </p>
-                    <ul class="ld-tm-social social-icon branded-text mt-3">
-                      <li>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="lqd-column col-md-3 col-sm-6">
-                <div class="ld-tm d-flex flex-column text-center px-md-3">
-                  <div class="ld-tm-img mb-3 text-center">
-                    <figure>
-                      <img
-                        class="circle"
-                        src="assets/demo/team/team-22.jpg"
-                        alt="Logan Benjamin"
-                      />
-                    </figure>
-                  </div>
-                  <div class="ld-tm-info">
-                    <h3 class="ld-tm-name size-sm font-weight-semibold mb-3">
-                      Logan Benjamin
-                    </h3>
-                    <h6
-                      class="ld-tm-pos text-uppercase ltr-sp-175 font-weight-bold mb-3"
-                    >
-                      ADVISOR
-                    </h6>
-                    <p class="opacity-06">
-                      Bitcoin is designed around the idea of using cryptography.
-                    </p>
-                    <ul class="ld-tm-social social-icon branded-text mt-3">
-                      <li>
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                      </li>
-                      <li>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section id="news" class="vc_row pt-50 pb-50">
+        </section> -->
+
+        <!-- News -->
+        <!-- <section id="news" class="vc_row pt-50 pb-50">
           <div class="container">
             <div class="row">
               <div class="lqd-column col-md-6 col-md-offset-3 mb-70">
@@ -1295,8 +1260,10 @@
               </div>
             </div>
           </div>
-        </section>
-        <section id="buy" class="vc_row pt-50 pb-50">
+        </section> -->
+
+        <!-- FAQ -->
+        <section id="faq" class="vc_row pt-50 pb-50">
           <div class="container">
             <div class="row">
               <div class="lqd-column col-md-6 col-md-offset-3">
@@ -1433,148 +1400,10 @@
             </div>
           </div>
         </section>
-        <section class="vc_row pt-50 pb-150">
-          <div class="container">
-            <div class="row">
-              <div class="lqd-column col-md-6 col-md-offset-3 mb-55">
-                <header class="fancy-heading text-center">
-                  <h6
-                    class="font-size-12 text-uppercase ltr-sp-2 mt-0 mb-3 opacity-05"
-                  >
-                    Idea of use credit cards
-                  </h6>
-                  <h2 class="font-size-40 my-0">Listing ICO sales.</h2>
-                </header>
-              </div>
-            </div>
-            <div class="row d-flex flex-wrap align-items-center">
-              <div class="lqd-column col-md-4 col-xs-12 mb-4 mb-md-0">
-                <h2 class="font-size-36 mt-0">
-                  Apply for a discount and get free coins.
-                </h2>
-                <p class="font-size-17 lh-175 pr-md-4 mb-30">
-                  Bitcoin is designed around the idea of using cryptography to
-                  control the creation and transfer of money in any time.
-                </p>
-                <a
-                  href="#"
-                  class="btn btn-solid circle btn-bordered border-thin btn-gradient px-3"
-                >
-                  <span>
-                    <span class="btn-gradient-bg"></span>
-                    <span class="btn-txt">Apply Code</span>
-                    <span class="btn-icon">
-                      <i class="fa fa-long-arrow-right"></i>
-                    </span>
-                    <span class="btn-gradient-bg btn-gradient-bg-hover"></span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                      xml:space="preserve"
-                      class="btn-gradient-border"
-                      width="100%"
-                      height="100%"
-                    >
-                      <defs>
-                        <linearGradient
-                          id="svg-border-5c79175df082b"
-                          x1="0%"
-                          y1="0%"
-                          x2="100%"
-                          y2="0%"
-                        >
-                          <stop offset="0%"></stop>
-                          <stop offset="100%"></stop>
-                        </linearGradient>
-                      </defs>
-                      <rect
-                        x="0.5"
-                        y="0.5"
-                        rx="31"
-                        ry="31"
-                        width="100%"
-                        height="100%"
-                        stroke="url(#svg-border-5c79175df082b)"
-                      ></rect>
-                    </svg>
-                  </span>
-                </a>
-              </div>
-              <div class="lqd-column col-md-8 col-xs-12">
-                <div
-                  class="lqd-column-inner border-athens-gray border-radius-5 pt-50 pb-25 px-2 px-md-5"
-                >
-                  <div class="row">
-                    <div class="lqd-column col-md-10 col-md-offset-1 mb-35">
-                      <div
-                        class="countdown text-arapawa"
-                        data-fittext="true"
-                        data-fittext-options='{ "compressor": 0.75, "minFontSize": 60, "maxFontSize": 60 }'
-                        data-plugin-countdown="true"
-                        data-countdown-options='{"until":"2020-1-1"}'
-                      ></div>
-                    </div>
-                    <div class="lqd-column col-md-4 col-xs-6">
-                      <p>
-                        <span class="font-size-16 text-arapawa">Soft Cap:</span
-                        ><br />
-                        <span class="font-size-16 opacity-06"
-                          >$10.000.000 USD</span
-                        >
-                      </p>
-                    </div>
-                    <div class="lqd-column col-md-4 col-xs-6">
-                      <p>
-                        <span class="font-size-16 text-arapawa">Soft Cap:</span
-                        ><br />
-                        <span class="font-size-16 opacity-06"
-                          >$10.000.000 USD</span
-                        >
-                      </p>
-                    </div>
-                    <div class="lqd-column col-md-4 col-xs-6">
-                      <p>
-                        <span class="font-size-16 text-arapawa">Payment:</span
-                        ><br />
-                        <span class="font-size-16 opacity-06"
-                          >Paypal, Credit Card</span
-                        >
-                      </p>
-                    </div>
-                    <div class="lqd-column col-md-4 col-xs-6">
-                      <p>
-                        <span class="font-size-16 text-arapawa">Hard Cap:</span
-                        ><br />
-                        <span class="font-size-16 opacity-06"
-                          >$300.000.000 USD</span
-                        >
-                      </p>
-                    </div>
-                    <div class="lqd-column col-md-4 col-xs-6">
-                      <p>
-                        <span class="font-size-16 text-arapawa">Hard Cap:</span
-                        ><br />
-                        <span class="font-size-16 opacity-06"
-                          >$300.000.000 USD</span
-                        >
-                      </p>
-                    </div>
-                    <div class="lqd-column col-md-4 col-xs-6">
-                      <p>
-                        <span class="font-size-16 text-arapawa">Start:</span
-                        ><br />
-                        <span class="font-size-16 opacity-06"
-                          >13 September, 2019 13:00</span
-                        >
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+
+        <!-- Know more -->
         <section
+          id="connect"
           class="vc_row pt-100 pb-100 bg-cover"
           style="background-image: url(assets/demo/bg/bg-39.jpg)"
         >
@@ -1582,18 +1411,18 @@
             <div class="row">
               <div class="lqd-column col-md-8 col-md-offset-2 text-center">
                 <h2 class="mt-0 mb-3 font-size-45 text-white">
-                  Start trading with One Wallet
+                  Wanna know more?
                 </h2>
-                <p class="font-size-20 text-fade-white-07 mb-45">
+                <!-- <p class="font-size-20 text-fade-white-07 mb-45">
                   Simple, Seamless, Secure.
-                </p>
+                </p> -->
                 <a
-                  href="#"
+                  href="/contact.html"
                   class="btn btn-solid circle border-none px-2 font-size-15 font-weight-bold btn-white text-hover-white"
                 >
                   <span>
-                    <span class="btn-txt">Create free account</span>
-                    <span class="btn-gradient-bg bg-white"></span>
+                    <span class="btn-txt">Contact Us</span>
+                    <span class="btn-gradient-bg bg-zircon"></span>
                     <span class="btn-gradient-bg btn-gradient-bg-hover"></span>
                   </span>
                 </a>
@@ -1602,70 +1431,100 @@
           </div>
         </section>
       </main>
-      <footer class="main-footer pt-100 pb-70">
-        <section class="pb-55">
+
+      <!-- Footer -->
+      <footer class="main-footer pt-100 pb-60">
+        <section class="pb-20">
           <div class="container">
             <div class="row">
               <div class="lqd-column col-md-2 col-sm-6">
-                <h3 class="h5 widget_title">Ave wallet</h3>
+                <h3 class="h5 widget_title">Useful Links</h3>
                 <ul class="lqd-custom-menu reset-ul">
-                  <li><a class="font-size-15 lh-25" href="#">The team</a></li>
-                  <li><a class="font-size-15 lh-25" href="#">Technology</a></li>
-                  <li><a class="font-size-15 lh-25" href="#">News</a></li>
-                  <li><a class="font-size-15 lh-25" href="#">Blog</a></li>
                   <li>
-                    <a class="font-size-15 lh-25" href="#">White Paper</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="lqd-column col-md-2 col-sm-6">
-                <h3 class="h5 widget_title">For clients</h3>
-                <ul class="lqd-custom-menu reset-ul">
-                  <li><a class="font-size-15 lh-25" href="#">Invest</a></li>
-                  <li><a class="font-size-15 lh-25" href="#">Wallet</a></li>
-                  <li><a class="font-size-15 lh-25" href="#">Exchange</a></li>
-                  <li>
-                    <a class="font-size-15 lh-25" href="#">Accelerator</a>
-                  </li>
-                  <li><a class="font-size-15 lh-25" href="#">FAQ</a></li>
-                </ul>
-              </div>
-              <div class="lqd-column col-md-2 col-sm-6">
-                <h3 class="h5 widget_title">Get in touch</h3>
-                <ul class="lqd-custom-menu reset-ul">
-                  <li><a class="font-size-15 lh-25" href="#">Contacts</a></li>
-                  <li><a class="font-size-15 lh-25" href="#">Support</a></li>
-                  <li>
-                    <a class="font-size-15 lh-25" href="#">Open positions</a>
+                    <a
+                      class="font-size-15 lh-25"
+                      href="https://hackers.soc.pdn.ac.lk/gallery"
+                      >Gallery</a
+                    >
                   </li>
                   <li>
-                    <a class="font-size-15 lh-25" href="#"
-                      >Join as Blockchain Accelerator</a
+                    <a class="font-size-15 lh-25" href="/contact.html"
+                      >Contact Us</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="font-size-15 lh-25"
+                      href="https://aces.ce.pdn.ac.lk"
+                      target="_blank"
+                      >ACES</a
                     >
                   </li>
                 </ul>
               </div>
-              <div class="lqd-column col-md-4 col-md-offset-1">
-                <div class="row">
-                  <div class="lqd-column col-sm-6 mb-3 mb-md-0">
-                    <a href="#">
-                      <img
-                        src="assets/demo/misc/app-store.jpg"
-                        alt="App Store"
-                      />
-                    </a>
-                  </div>
-                  <div class="lqd-column col-sm-6">
-                    <a href="#">
-                      <img
-                        src="assets/demo/misc/google-play.jpg"
-                        alt="Google Play"
-                      />
-                    </a>
-                  </div>
-                </div>
-                <h3 class="h5 widget_title mb-1">Get in touch</h3>
-                <p>Get our latest news right in your mailbox</p>
+              <div class="lqd-column col-md-2 col-sm-6">
+                <h3 class="h5 widget_title">Events</h3>
+                <ul class="lqd-custom-menu reset-ul">
+                  <li>
+                    <a class="font-size-15 lh-25" href="#">Pre-Datathon</a>
+                  </li>
+                  <li>
+                    <a class="font-size-15 lh-25" href="#">Pre-Hackathon</a>
+                  </li>
+                  <li><a class="font-size-15 lh-25" href="#">Pre-Coders</a></li>
+                </ul>
+              </div>
+              <div class="lqd-column col-md-3 col-sm-6">
+                <h3 class="h5 widget_title">Sessions</h3>
+                <ul class="lqd-custom-menu reset-ul">
+                  <li>
+                    <a
+                      class="font-size-15 lh-25"
+                      href="https://hackers.soc.pdn.ac.lk/sessions#developer-series"
+                      >Developer Series Sessions</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="font-size-15 lh-25"
+                      href="https://hackers.soc.pdn.ac.lk/sessions#competitive-programming"
+                      >Competitive Programming Sessions</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="lqd-column col-md-2 col-md-offset-2 col-sm-6">
+                <h3 class="h5 widget_title">Follow Us On</h3>
+                <ul class="social-icon social-icon-md">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/uophackers"
+                      target="_blank"
+                      ><i class="fa fa-facebook fa-2x"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank"
+                      ><i class="fa fa-youtube-play fa-2x"></i
+                    ></a>
+                  </li>
+                  <!-- <li>
+                    <a href="#" target="_blank"
+                      ><i class="fa fa-twitter fa-2x"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank"
+                      ><i class="fa fa-instagram fa-2x"></i
+                    ></a>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+            <div id="subscribe" class="row text-center">
+              <div class="lqd-column col-md-6 col-md-offset-3 col-sm-12">
+                <h3 class="h5 widget_title mb-1">Newsletter</h3>
+                <p>Subscribe to get our news and updates.</p>
                 <div
                   class="ld-sf ld-sf--input-bordered ld-sf--button-solid ld-sf--size-sm ld-sf--circle ld-sf--border-thin ld-sf--button-show ld-sf--button-inside"
                 >
@@ -1701,45 +1560,25 @@
             </div>
           </div>
         </section>
-        <section class="pt-md-5">
+        <section class="pt-md-3">
           <div class="container">
             <div class="row d-flex flex-wrap align-items-center">
-              <div class="lqd-column col-md-6 mb-4 mb-md-0">
-                <ul class="social-icon social-icon-md">
-                  <li>
-                    <a href="#" target="_blank"
-                      ><i class="fa fa-facebook"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank"
-                      ><i class="fa fa-twitter"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank"
-                      ><i class="fa fa-instagram"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank"
-                      ><i class="fa fa-youtube-play"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank"
-                      ><i class="fa fa-linkedin"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="#" target="_blank"><i class="fa fa-skype"></i></a>
-                  </li>
-                </ul>
+              <div class="row d-flex flex-wrap align-items-center">
+                <div
+                  class="lqd-column col-md-2 col-md-offset-5 col-xs-4 col-xs-offset-4 mb-4"
+                >
+                  <a href="/">
+                    <img
+                      src="assets/img/logo/hackers-black-full.png"
+                      alt="Hackers' Club, University of Peradeniya"
+                    />
+                  </a>
+                </div>
               </div>
-              <div class="lqd-column col-md-6 text-md-right">
-                <p>
-                  © 2019 One · <a href="#">Privacy Policy</a> ·
-                  <a href="#">Terms of Use</a>
+              <div class="lqd-column col-md-12 text-md-center">
+                <p class="center-text" style="text-align: center">
+                  Copyright © 2020 Hackers' Club, University of Peradeniya. All
+                  Rights Reserved.
                 </p>
               </div>
             </div>
@@ -1747,13 +1586,19 @@
         </section>
       </footer>
     </div>
-    <script src="maps/api/js_key_aizasycunwosk2b5wtvmoai8j55ohhs_snv2vfa.js"></script>
     <script src="assets/vendors/jquery.min.js"></script>
     <script src="assets/js/theme-vendors.js"></script>
     <script src="assets/js/theme.min.js"></script>
     <script src="assets/js/liquidajaxcontactform.min.js"></script>
     <script src="assets/js/liquidajaxmailchimp.min.js"></script>
     <style type="text/css">
+      #navbar {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: -webkit-fill-available;
+        background-color: #000030;
+      }
       .lqd-buy-now {
         position: fixed;
         right: 30px;
