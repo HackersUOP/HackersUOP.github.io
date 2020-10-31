@@ -367,7 +367,7 @@ small, .font_small { font-size: 0.667em; }
 .nav-trigger { display: -webkit-box; display: flex; padding: 0; border: none; background: none; background-color: transparent; box-shadow: none; color: #000; -webkit-box-orient: horizontal; -webkit-box-direction: normal; flex-flow: row wrap; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; }
 .nav-trigger .txt, .nav-trigger .bars, .nav-trigger .bar { display: inline-block; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-flow: inherit; -webkit-box-align: inherit; align-items: inherit; -webkit-box-pack: inherit; justify-content: inherit; }
 .nav-trigger .bars { display: -webkit-box; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-flow: column nowrap; }
-.nav-trigger .bar { background-color: #000; }
+.nav-trigger .bar { background-color: #06A; }
 .nav-trigger .bar:before, .nav-trigger .bar:after { background-color: inherit; }
 .nav-trigger .txt { display: inline-block; margin-left: 13px; font-size: 10px; text-transform: uppercase; font-weight: 700; line-height: 1; }
 .nav-trigger.style-1 .bars { width: 25px; height: 13px; -webkit-transform: rotate(90deg); transform: rotate(90deg); -webkit-transition: all 0.3s 0.2s cubic-bezier(0.65, 0.05, 0.36, 1); transition: all 0.3s 0.2s cubic-bezier(0.65, 0.05, 0.36, 1); }
@@ -4817,7 +4817,7 @@ body.search .no-results .search-form input[type=submit] { background-color: var(
   [data-mobile-header-scheme=light] .navbar-header { background-color: #fff; }
   [data-mobile-header-scheme=light] .lqd-mobile-modules-container .social-icon a, [data-mobile-header-scheme=light] .lqd-mobile-modules-container .social-icon a:hover { color: #000; }
   [data-mobile-header-scheme=light] .lqd-mobile-modules-container .ld-module-trigger { color: #000 !important; }
-  [data-mobile-header-scheme=gray] .main-header .navbar-header { background-color: #f6f6f6; }
+  [data-mobile-header-scheme=gray] .main-header .navbar-header { background-color: inherit; }
   [data-mobile-header-scheme=gray] .main-header .lqd-mobile-modules-container .social-icon a, [data-mobile-header-scheme=gray] .main-header .lqd-mobile-modules-container .social-icon a:hover { color: #000; }
   [data-mobile-header-scheme=gray] .main-header .ld-module-trigger { color: #000 !important; }
   [data-mobile-header-scheme=dark] .navbar-header { background-color: #191D18; }
