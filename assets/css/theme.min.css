@@ -1218,7 +1218,7 @@ figure + .ld-cart-product-details { margin-left: 15px; }
   80% { border-width: 1px; -webkit-transform: scale(1.36); transform: scale(1.36); }
   100% { opacity: 0; } }
 /* Icon Box */
-.iconbox { background-image: url(assets/demo/bg/bg-37.jpg); display: -webkit-box; display: flex; margin-bottom: 2em; position: relative; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; text-align: center; -webkit-transition: box-shadow 0.3s ease, background 0.3s ease; transition: box-shadow 0.3s ease, background 0.3s ease; }
+.iconbox {display: -webkit-box; display: flex; margin-bottom: 2em; position: relative; -webkit-box-align: center; align-items: center; -webkit-box-pack: center; justify-content: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; flex-direction: column; text-align: center; -webkit-transition: box-shadow 0.3s ease, background 0.3s ease; transition: box-shadow 0.3s ease, background 0.3s ease; }
 .iconbox .iconbox-icon-container, .iconbox .contents, .iconbox > h3 { position: relative; z-index: 2; }
 .iconbox .iconbox-icon-container, .iconbox p, .iconbox h3 { -webkit-transition-property: color, background; transition-property: color, background; -webkit-transition-duration: 0.3s; transition-duration: 0.3s; -webkit-transition-timing-function: ease; transition-timing-function: ease; }
 .iconbox h3 { display: inline-block; margin: 0 0 0.7em; font-size: 24px; line-height: 1.5em; }
