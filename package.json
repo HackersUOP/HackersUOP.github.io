@@ -22,6 +22,7 @@
     "url": "https://github.com/HackersUOP/HackersUOP.github.io/issues"
   },
   "homepage": "https://github.com/HackersUOP/HackersUOP.github.io#readme",
+  "dependencies": {},
   "devDependencies": {
     "live-server": "^1.2.1",
     "prettier": "2.1.1"
