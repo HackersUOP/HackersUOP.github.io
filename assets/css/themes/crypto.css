@@ -7,14 +7,9 @@
 }
 
 :root {
-  /*
   --color-primary: #8300ff;
   --color-gradient-start: #8300ff;
   --color-gradient-stop: #1de1d1;
-  */
-  --color-primary: #8300ff;
-  --color-gradient-start: #0D0357;
-  --color-gradient-stop: #050122;
 }
 
 body {
